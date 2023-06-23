@@ -1,0 +1,17 @@
+.main{
+    width: 100vw;
+    height: auto;
+    background: rgba(241,235,229,1);
+    text-align: center;
+    padding-bottom: 10vh;
+}
+.title{
+    padding: 7vh 0 3vh 0;
+    font-size: 2.5em;
+}
+.text{
+    font-size: 1.75em;
+}
+.bolt{
+    font-size: 1.6em;
+}

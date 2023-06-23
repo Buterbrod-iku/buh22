@@ -1,0 +1,44 @@
+header{
+    width: 100vw;
+    height: 50px;
+    background: rgba(241,235,229,1);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+.logoBlock{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.textLogo{
+    margin-left: 15px;
+    font-size: 1.7em;
+    font-weight: normal;
+    font-style: italic;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menuBlock{
+    color: #1f1b1b;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 30px;
+    border-right: 1px solid black;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.menuBlock:last-child{
+    border: none;
+}
+.menuBlock:hover{
+    color: #857373;
+}
+.NavLink{
+    text-decoration: none;
+    color: #1f1b1b;
+}

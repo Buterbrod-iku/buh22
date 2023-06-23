@@ -1,0 +1,21 @@
+.main{
+    text-align: left;
+    font-size: 1.1em;
+    margin: 50px;
+    display: flex;
+    align-items: start;
+}
+.title{
+    font-size: 1.4em;
+    padding-bottom: 10px;
+}
+.text{
+    font-size: 1.15em;
+}
+.img{
+    width: 50px;
+    margin: 40px 20px 0 0;
+}
+a{
+    color: black;
+}

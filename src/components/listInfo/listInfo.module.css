@@ -1,0 +1,17 @@
+.main{
+    width: 100vw;
+    height: auto;
+    background: rgba(241,235,229,1);
+    display: flex;
+    padding-bottom: 10vh;
+}
+.leftBlock{
+    width: 50%;
+    height: 100%;
+    padding: 5vh 0 0 15vw;
+}
+.rightBlock{
+    width: 50%;
+    height: 100%;
+    padding-top: 5vh;
+}

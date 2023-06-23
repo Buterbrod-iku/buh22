@@ -1,0 +1,27 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+}
+.nameBlock{
+    font-weight: bold;
+    padding: 7vh 0 3vh 0;
+    font-size: 1.2em;
+}
+.title{
+    padding-bottom: 3vh;
+    font-size: 2.1em;
+}
+.img{
+    width: 15vw;
+}
+.text{
+    font-size: 1.5em;
+    padding: 3vh 0 10vh 0;
+}

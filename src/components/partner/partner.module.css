@@ -1,0 +1,19 @@
+.main{
+    width: 100vw;
+    height: auto;
+    background: #f0f0f0;
+    padding-bottom: 5vh;
+}
+.title{
+    text-align: center;
+    font-size: 2.8em;
+    padding: 7vh 0;
+}
+.position{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    margin: 20px;
+    object-fit: contain;
+}

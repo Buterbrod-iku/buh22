@@ -1,0 +1,33 @@
+.main{
+    width: 50vw;
+    padding-bottom: 3vh;
+}
+.text{
+    font-size: 1.4em;
+    margin: 10px;
+}
+.mainText{
+    width: 50%;
+    height: 70px;
+    border: 1px solid black;
+    background: white;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ced5d9;
+    color: #4d4c4c;
+    font-size: 1.2em;
+}
+td{
+    border: 1px solid #ced5d9;
+    background: white;
+}
+tr{
+    width: 50%;
+    height: 70px;
+    border: 1px solid #ced5d9;
+}
+.blue{
+    background: #eff4f7;
+}

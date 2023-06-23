@@ -1,0 +1,31 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding-top: 50px;
+}
+.leftBlock{
+    width: 50%;
+    height: 100%;
+    background: rgb(47, 53, 56);
+    padding: 20vh 0 0 13vw;
+}
+.titleText{
+    color: white;
+    font-size: 3.2em;
+    font-family: Georgia;
+    margin-bottom: 5vh;
+}
+.articleText{
+    color: white;
+    font-size: 1.6em;
+    font-family: Corbel;
+    margin-bottom: 5vh;
+}
+.rightBlock{
+    width: 50%;
+    height: 100%;
+    background-image: url("../../assets/image/first_img.jpg");
+    background-size: cover;
+    background-position: center;
+}

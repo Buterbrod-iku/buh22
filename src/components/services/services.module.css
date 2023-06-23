@@ -1,0 +1,23 @@
+.main{
+    width: 100vw;
+    height: auto;
+    background: #f0f0f0;
+    padding-bottom: 5vh;
+}
+.position{
+    display: grid;
+    gap: 40px 70px;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 12vw;
+}
+.title{
+    text-decoration: underline black;
+    text-align: center;
+    padding: 7vh 0;
+    font-size: 1.8em;
+}
+.positionButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
