@@ -1,0 +1,70 @@
+.main{
+    width: 100vw;
+    height: auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+.title{
+    text-align: center;
+    padding: 15vh 0 5vh 0;
+    font-size: 2.5em;
+    width: 60vw;
+}
+.position{
+    width: 60vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.open{
+    max-height: 100vh;
+    font-size: 18px;
+    margin-left: 1vw;
+    overflow: hidden;
+    -webkit-transition: max-height ease-in-out .3s,opacity ease-in-out .3s;
+    transition: max-height ease-in-out .3s,opacity ease-in-out .3s;
+}
+.hidden{
+    max-height: 0;
+    overflow: hidden;
+    margin-left: 1vw;
+    font-size: 18px;
+    -webkit-transition: max-height ease-in-out .3s,opacity ease-in-out .3s;
+    transition: max-height ease-in-out .3s,opacity ease-in-out .3s;
+}
+.close{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid #eee;
+    padding: 2vh 0;
+}
+.close > h3{
+    font-weight: lighter;
+    font-size: 1.7em;
+}
+.close > div > p{
+    color: black;
+    font-size: 1.8em;
+    margin-top: -8px;
+    transition: 0.2s;
+}
+.close > div{
+    width: 50px;
+    height: 50px;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 20px;
+}
+.first{
+    margin-bottom: 3px;
+}
+.first:first-letter{
+    text-transform: capitalize;
+}

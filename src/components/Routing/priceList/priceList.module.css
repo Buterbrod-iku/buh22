@@ -1,0 +1,28 @@
+.main{
+    width: 100vw;
+    height: auto;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+.title{
+    text-align: center;
+    padding: 15vh 0 5vh 0;
+    font-size: 2.5em;
+    width: 60vw;
+}
+.download{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.position{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 50px;
+    width: 70vw;
+    margin-top: 5vh;
+}

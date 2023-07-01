@@ -4,6 +4,11 @@ import OkTextBlock from "./okTextBlock/okTextBlock";
 import GreenButton from "../../UI_Kit/button/greenButton";
 
 const OneServices = () => {
+    function componentDidMount(){
+        document.title = "Разовые услуги";
+    }
+    componentDidMount();
+
     return (
         <div className={style.main}>
             <h2 className={style.title}>Разовые услуги</h2>

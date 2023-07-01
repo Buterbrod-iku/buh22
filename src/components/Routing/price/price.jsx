@@ -3,6 +3,11 @@ import style from './price.module.css';
 import Table from "./table/table";
 
 const Price = () => {
+    function componentDidMount(){
+        document.title = "Прайс-лист актуальный";
+    }
+    componentDidMount();
+
     return (
         <div className={style.main}>
             <h2 className={style.title}>ПРАЙС-ЛИСТ</h2>

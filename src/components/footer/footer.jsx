@@ -3,6 +3,7 @@ import style from './footer.module.css';
 import image from '../../assets/image/mini-logo.png';
 import {NavLink} from "react-router-dom";
 import OneServices from "../Routing/oneServices/oneServices";
+import Service from "../Routing/service/service";
 
 const Footer = () => {
     const handleClickScrollUp = () => {
@@ -23,13 +24,13 @@ const Footer = () => {
                     <NavLink to="/service" className={style.NavLink} onClick={handleClickScrollUp}>Услуги</NavLink>
                 </div>
                 <div className={style.menuBlock}>
-                    <NavLink to="" className={style.NavLink} onClick={handleClickScrollUp}>Цены</NavLink>
+                    <NavLink to="/priceList" className={style.NavLink} onClick={handleClickScrollUp}>Цены</NavLink>
                 </div>
                 <div className={style.menuBlock}>
                     <NavLink to="/OneServices" className={style.NavLink} onClick={handleClickScrollUp}>Разовые услуги</NavLink>
                 </div>
                 <div className={style.menuBlock}>
-                    <NavLink to="" className={style.NavLink} onClick={handleClickScrollUp}>Декларации 3НДФЛ</NavLink>
+                    <NavLink to="/zndfl" className={style.NavLink} onClick={handleClickScrollUp}>Декларации 3НДФЛ</NavLink>
                 </div>
                 <div className={style.menuBlock}>
                     <NavLink to="/interest" className={style.NavLink} onClick={handleClickScrollUp}>Полезные сервисы</NavLink>

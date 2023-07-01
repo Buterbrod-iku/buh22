@@ -3,6 +3,11 @@ import style from './application.module.css';
 import GreenButton from "../../UI_Kit/button/greenButton";
 
 const Application = () => {
+    function componentDidMount(){
+        document.title = "Анкета клиента";
+    }
+    componentDidMount();
+
     return (
         <div className={style.main}>
             <h2 className={style.title}>АНКЕТА ПРЕДВАРИТЕЛЬНОГО РАСЧЕТА СТОИМОСТИ ОБСЛУЖИВАНИЯ КЛИЕНТА</h2>

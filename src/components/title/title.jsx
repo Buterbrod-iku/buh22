@@ -3,6 +3,11 @@ import style from './title.module.css';
 import GreenButton from "../UI_Kit/button/greenButton";
 
 const Title = () => {
+    function componentDidMount(){
+        document.title = "Бухгалтерское сопровождение";
+    }
+    componentDidMount();
+
     return (
         <div className={style.main} id="title">
             <div className={style.leftBlock}>

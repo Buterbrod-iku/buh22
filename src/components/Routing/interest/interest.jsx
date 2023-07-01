@@ -12,6 +12,11 @@ import GreenButton from "../../UI_Kit/button/greenButton";
 import Href from "./href/href";
 
 const Interest = () => {
+    function componentDidMount(){
+        document.title = "Полезные сервисы";
+    }
+    componentDidMount();
+
     const array = ["Форма Р21001: Заявление о госрегистрации физлица в качестве ИП.", "Форма Р24001: Заявление о внесении изменений в сведения об ИП, содержащиеся в ЕГРИП.", "Форма Р26001: Заявление о госрегистрации прекращения физлицом деятельности в качестве ИП."];
     const a = [];
 

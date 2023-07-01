@@ -3,6 +3,11 @@ import style from './about.module.css';
 import image from '../../../assets/image/about.jpg';
 
 const About = () => {
+    function componentDidMount(){
+        document.title = "Бухгалтерское бюро Олеси Якобсон";
+    }
+    componentDidMount();
+
     return (
         <div className={style.main}>
             <p className={style.nameBlock}>О КОМПАНИИ</p>

@@ -14,6 +14,9 @@ import Price from "./components/Routing/price/price";
 import Interest from "./components/Routing/interest/interest";
 import OneServices from "./components/Routing/oneServices/oneServices";
 import Application from "./components/Routing/application/application";
+import Zndfl from "./components/Routing/zndfl/zndfl";
+import PriceList from "./components/Routing/priceList/priceList";
+import Service from "./components/Routing/service/service";
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
                 <Route path="/interest" element={<Interest />} />
                 <Route path="/OneServices" element={<OneServices />} />
                 <Route path="/application" element={<Application />} />
+                <Route path="/zndfl" element={<Zndfl />} />
+                <Route path="/priceList" element={<PriceList />} />
+                <Route path="/service" element={<Service />} />
             </Routes>
             <Contact />
             <Footer />
