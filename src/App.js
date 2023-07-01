@@ -12,6 +12,8 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import About from "./components/Routing/about/about";
 import Price from "./components/Routing/price/price";
 import Interest from "./components/Routing/interest/interest";
+import OneServices from "./components/Routing/oneServices/oneServices";
+import Application from "./components/Routing/application/application";
 
 function App() {
   return (
@@ -22,7 +24,8 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/price" element={<Price />} />
                 <Route path="/interest" element={<Interest />} />
-                {/*<Route path="/main" element={}/>*/}
+                <Route path="/OneServices" element={<OneServices />} />
+                <Route path="/application" element={<Application />} />
             </Routes>
             <Contact />
             <Footer />

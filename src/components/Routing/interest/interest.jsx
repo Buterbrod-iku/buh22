@@ -9,6 +9,7 @@ import image5 from '../../../assets/ico/documents.svg';
 import image6 from '../../../assets/ico/25fn_signature.svg';
 import image7 from '../../../assets/ico/Tilda_Icons_32_profession_accountant.svg';
 import GreenButton from "../../UI_Kit/button/greenButton";
+import Href from "./href/href";
 
 const Interest = () => {
     const array = ["Форма Р21001: Заявление о госрегистрации физлица в качестве ИП.", "Форма Р24001: Заявление о внесении изменений в сведения об ИП, содержащиеся в ЕГРИП.", "Форма Р26001: Заявление о госрегистрации прекращения физлицом деятельности в качестве ИП."];
@@ -36,6 +37,7 @@ const Interest = () => {
                 Через личный кабинет ФСС можно работать с электронными больничными, которые представляют сотрудники ИП." li={a}/>
             </div>
             <GreenButton text="Нужна помощь" padding="25px 80px"/>
+            <Href />
         </div>
     );
 };

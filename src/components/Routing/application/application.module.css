@@ -1,0 +1,45 @@
+.main{
+    width: 100vw;
+    height: auto;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+    padding: 10vh 0;
+    font-size: 2.5em;
+    width: 50vw;
+}
+.label{
+    font-size: 1.4em;
+}
+.input{
+    width: 40vw;
+    height: 6vh;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    font-size: 20px;
+    background: none;
+    resize: vertical;
+}
+.input:focus{
+    outline: none;
+}
+.area{
+    padding-top: 15px;
+    height: 10vh;
+}
+
+.inputChecbox{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

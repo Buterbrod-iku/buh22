@@ -1,0 +1,10 @@
+.main{
+    width: 450px;
+    display: flex;
+}
+.svg{
+    margin-right: 20px;
+}
+.title{
+    font-size: 1.5em;
+}

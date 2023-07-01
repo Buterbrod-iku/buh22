@@ -44,7 +44,7 @@ const Header = () => {
                 <div className={style.menuBlock} onClick={handleClickScroll}>Контакты</div>
 
                 <div className={style.menuBlock}>
-                    <NavLink to="/about" className={style.NavLink} onClick={handleClickScrollUp}>О Компании</NavLink>
+                    <NavLink to="/about" className={style.NavLink} onClick={handleClickScrollUp}>О компании</NavLink>
                 </div>
             </div>
         </header>

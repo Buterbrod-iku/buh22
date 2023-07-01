@@ -17,11 +17,7 @@ footer{
     font-size: 1.2em;
     margin: 20px 0;
     padding: 0 20px;
-    border-right: 1px solid white;
     cursor: pointer;
-}
-.menuBlock:last-child{
-    border: none;
 }
 .img{
     width: 12vw;
@@ -31,4 +27,8 @@ footer{
     text-align: center;
     color: white;
     font-size: 1.2em;
+}
+.NavLink{
+    text-decoration: none;
+    color: white;
 }
