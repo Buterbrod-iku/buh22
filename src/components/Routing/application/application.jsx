@@ -20,7 +20,7 @@ const Application = () => {
                 <input type="text" className={style.input}/>
             </div>
 
-            <div className={style.block} style={{width: "40vw", marginBottom: "30px"}}>
+            <div className={style.block + ' ' + style.chec}>
                 <label className={style.label}>Система налогообложения</label>
                 <div style={{display: "flex", alignItems: "center", margin: "10px 0"}}>
                     <input type="checkbox" className={style.inputChecbox}/>

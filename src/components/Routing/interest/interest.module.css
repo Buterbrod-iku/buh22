@@ -23,3 +23,19 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+@media (max-width: 768px) {
+    .main{
+        padding-bottom: 5vh;
+    }
+    .title, .text{
+        width: 90vw;
+        margin-left: 5vw;
+    }
+    .position{
+        width: 100vw;
+        margin-left: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 5vh;
+    }
+}

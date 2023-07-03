@@ -42,3 +42,26 @@ header{
     text-decoration: none;
     color: #1f1b1b;
 }
+@media (max-width: 768px) {
+    header{
+        height: auto;
+        position: relative;
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+        padding-bottom: 2vh;
+    }
+    .menuBlock{
+        font-size: 23px;
+        padding: 15px 0;
+        border-right: none;
+    }
+    .logoBlock{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+    }
+}

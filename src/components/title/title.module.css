@@ -29,3 +29,29 @@
     background-size: cover;
     background-position: center;
 }
+@media (max-width: 768px) {
+    .main{
+        width: 100vw;
+        height: 75vh;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0;
+    }
+    .leftBlock{
+        width: 100vw;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .titleText{
+        text-align: center;
+    }
+    .articleText{
+        text-align: center;
+    }
+    .rightBlock{
+        display: none;
+    }
+}

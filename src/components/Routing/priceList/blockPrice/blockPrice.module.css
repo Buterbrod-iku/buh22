@@ -43,3 +43,15 @@
     cursor: pointer;
     background: white;
 }
+@media (max-width: 768px) {
+    .posBut{
+        padding: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -28vw;
+    }
+    .button{
+        width: 50vw;
+    }
+}

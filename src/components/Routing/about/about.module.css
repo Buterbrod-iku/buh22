@@ -25,3 +25,21 @@
     font-size: 1.5em;
     padding: 3vh 0 10vh 0;
 }
+@media (max-width: 768px) {
+    .main{
+        padding-top: 0;
+    }
+    .nameBlock{
+        width: 90vw;
+        padding-top: 0;
+    }
+    .title{
+        width: 90vw;
+    }
+    .img{
+        width: 30vw;
+    }
+    .text{
+        width: 90vw;
+    }
+}

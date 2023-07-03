@@ -43,3 +43,19 @@
     height: 20px;
     margin-right: 10px;
 }
+.chec{
+    width: 40vw;
+    margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+    .title{
+        padding: 5vh 0;
+        width: 90vw;
+    }
+    .input{
+        width: 80vw;
+    }
+    .chec{
+        width: 80vw;
+    }
+}

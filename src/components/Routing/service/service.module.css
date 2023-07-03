@@ -68,3 +68,19 @@
 .first:first-letter{
     text-transform: capitalize;
 }
+@media (max-width: 768px) {
+    .title{
+        padding: 5vh 0;
+        font-size: 2.5em;
+        width: 70vw;
+    }
+    .position{
+        width: 80vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .open{
+        max-height: 120vh;
+    }
+}

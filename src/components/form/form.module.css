@@ -39,3 +39,8 @@
     padding-top: 15px;
     height: 10vh;
 }
+@media (max-width: 768px) {
+    .input{
+        width: 80vw;
+    }
+}

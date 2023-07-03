@@ -26,3 +26,8 @@
     width: 70vw;
     margin-top: 5vh;
 }
+@media (max-width: 768px) {
+    .position{
+        grid-template-columns: 1fr;
+    }
+}

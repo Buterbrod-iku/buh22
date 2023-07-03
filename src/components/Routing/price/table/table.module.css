@@ -31,3 +31,8 @@ tr{
 .blue{
     background: #eff4f7;
 }
+@media (max-width: 768px) {
+    .main{
+        width: 90vw;
+    }
+}

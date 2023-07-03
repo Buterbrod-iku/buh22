@@ -17,8 +17,6 @@ const Service = () => {
         setSelected(i);
     }
 
-
-
     return (
         <div className={style.main}>
             <h2 className={style.title}>БУХГАЛТЕРСКИЙ УЧЕТ ДЛЯ <br/> ИП И ООО</h2>

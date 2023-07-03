@@ -31,3 +31,12 @@
     cursor: pointer;
     background: white;
 }
+@media (max-width: 768px) {
+    .button{
+        width: 50vw;
+    }
+    .blockImage{
+        width: 70vw;
+
+    }
+}

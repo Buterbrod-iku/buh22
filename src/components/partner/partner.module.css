@@ -17,3 +17,14 @@
     margin: 20px;
     object-fit: contain;
 }
+@media (max-width: 768px) {
+    .position{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        justify-items: center;
+    }
+    .img{
+        margin: 0;
+    }
+}

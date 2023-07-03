@@ -19,3 +19,8 @@
 a{
     color: black;
 }
+@media (max-width: 768px) {
+    .main{
+        margin: 15px 50px;
+    }
+}

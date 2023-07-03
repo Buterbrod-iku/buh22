@@ -21,3 +21,8 @@
     justify-content: center;
     margin-top: 10vh;
 }
+@media (max-width: 768px) {
+    .position{
+        grid-template-columns: 1fr;
+    }
+}
