@@ -20,11 +20,11 @@
 }
 .position{
     display: grid;
-    grid-auto-rows: max-content;
     grid-template-columns: 1fr 1fr 1fr;
     width: 70vw;
     margin-top: 5vh;
     gap: 70px;
+    grid-auto-rows: 1fr;
 }
 @media (max-width: 768px) {
     .title{
@@ -36,5 +36,17 @@
     .position{
         grid-template-columns: 1fr;
         width: 80vw;
+    }
+}
+@media (max-width: 1350px) {
+    .title{
+        width: 70vw;
+    }
+    .text{
+        width: 70vw;
+    }
+    .position{
+        grid-template-columns: 1fr;
+        width: 60vw;
     }
 }

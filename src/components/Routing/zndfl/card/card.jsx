@@ -13,7 +13,7 @@ const ButtonApl = () => {
 
     return(
         <>
-            <NavLink to="/application" className={style.NavLink} onClick={handleClickScrollUp}><button className={style.button}>Оставить заявку</button></NavLink>
+            <NavLink to="/application" onClick={handleClickScrollUp}><button className={style.button}>Оставить заявку</button></NavLink>
         </>
     );
 };

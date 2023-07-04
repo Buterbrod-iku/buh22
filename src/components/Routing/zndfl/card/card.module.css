@@ -1,7 +1,10 @@
 .main{
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    padding-bottom: 8vh;
 }
 .blockImage{
     width: 20vw;
@@ -14,13 +17,11 @@
     text-align: center;
     font-size: 1.5em;
     padding-top: 10px;
-    height: 7vh;
 }
 .text{
     text-align: center;
     font-size: 1.2em;
     padding: 20px 0;
-    height: 20vh;
 }
 .button{
     width: 10vw;
@@ -30,6 +31,10 @@
     font-size: 1em;
     cursor: pointer;
     background: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -5vw;
 }
 @media (max-width: 768px) {
     .button{
@@ -37,6 +42,15 @@
     }
     .blockImage{
         width: 70vw;
+
+    }
+}
+@media (max-width: 1350px) {
+    .button{
+        width: 40vw;
+    }
+    .blockImage{
+        width: 50vw;
 
     }
 }

@@ -28,3 +28,14 @@
         margin: 0;
     }
 }
+@media (max-width: 1350px) {
+    .position{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        justify-items: center;
+    }
+    .img{
+        margin: 0;
+    }
+}

@@ -35,7 +35,6 @@ footer{
 @media (max-width: 768px) {
     .position{
         flex-direction: column;
-
     }
     .menuBlock{
         margin: 15px 0;
@@ -43,7 +42,21 @@ footer{
         cursor: pointer;
     }
     .img{
-        width: 50vw;
+        width: 30vw;
+        margin: 5vh;
+    }
+}
+@media (max-width: 1350px) {
+    .position{
+        flex-direction: column;
+    }
+    .menuBlock{
+        margin: 15px 0;
+        padding: 0;
+        cursor: pointer;
+    }
+    .img{
+        width: 30vw;
         margin: 5vh;
     }
 }

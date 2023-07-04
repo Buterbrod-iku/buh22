@@ -7,7 +7,7 @@ const BlockHref = (props) => {
             <h3 className={style.title}>{props.title}</h3>
             <ul>
                 {
-                    props.array.map((ul) => <li className={style.li}>{ul}</li>)
+                    props.array.map((ul) => <li className={style.li} /*target="_blank"*/>{ul}</li>)
                 }
             </ul>
         </div>

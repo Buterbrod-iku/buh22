@@ -10,12 +10,21 @@ import image6 from '../../../assets/ico/25fn_signature.svg';
 import image7 from '../../../assets/ico/Tilda_Icons_32_profession_accountant.svg';
 import GreenButton from "../../UI_Kit/button/greenButton";
 import Href from "./href/href";
+import {NavLink} from "react-router-dom";
 
 const Interest = () => {
     function componentDidMount(){
         document.title = "Полезные сервисы";
     }
     componentDidMount();
+
+    const handleClickScrollUp = () => {
+        const element = document.getElementById('app');
+        if (element) {
+            // 👇 Will scroll smoothly to the top of the next section
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
 
     const array = ["Форма Р21001: Заявление о госрегистрации физлица в качестве ИП.", "Форма Р24001: Заявление о внесении изменений в сведения об ИП, содержащиеся в ЕГРИП.", "Форма Р26001: Заявление о госрегистрации прекращения физлицом деятельности в качестве ИП."];
     const a = [];
@@ -41,7 +50,7 @@ const Interest = () => {
                 Причем расчет больничного можно произвести и для случая заболевания или беременности индивидуального предпринимателя лично, если он состоит в добровольных правоотношениях с ФСС.
                 Через личный кабинет ФСС можно работать с электронными больничными, которые представляют сотрудники ИП." li={a}/>
             </div>
-            <GreenButton text="Нужна помощь" padding="25px 80px"/>
+            <NavLink to="/application" className={style.NavLink} onClick={handleClickScrollUp}><GreenButton text="Нужна помощь" padding="25px 80px"/></NavLink>
             <Href />
         </div>
     );

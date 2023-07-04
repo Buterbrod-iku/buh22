@@ -16,3 +16,8 @@
         width: 80vw;
     }
 }
+@media (max-width: 1350px) {
+    .main{
+        width: 80vw;
+    }
+}

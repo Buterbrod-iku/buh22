@@ -37,7 +37,6 @@
     padding-top: 15px;
     height: 10vh;
 }
-
 .inputChecbox{
     width: 20px;
     height: 20px;
@@ -47,10 +46,29 @@
     width: 40vw;
     margin-bottom: 30px;
 }
+.position{
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
 @media (max-width: 768px) {
     .title{
         padding: 5vh 0;
         width: 90vw;
+    }
+    .input{
+        width: 80vw;
+    }
+    .chec{
+        width: 80vw;
+    }
+}
+@media (max-width: 1350px) {
+    .title{
+        padding: 15vh 0 10vh 0;
+        width: 70vw;
     }
     .input{
         width: 80vw;
