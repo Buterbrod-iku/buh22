@@ -43,4 +43,12 @@
     .input{
         width: 80vw;
     }
+    .title{
+        font-size: 2.2em;
+    }
+    .text{
+        text-align: center;
+        font-size: 1.5em;
+        padding-bottom: 3vh;
+    }
 }

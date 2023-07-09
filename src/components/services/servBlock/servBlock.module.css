@@ -17,3 +17,15 @@ ul{
 .li{
     font-size: 1.3em;
 }
+@media (max-width: 768px) {
+    .block{
+        width: 90vw;
+        margin-left: -20px;
+    }
+    .title{
+        font-size: 1.3em;
+    }
+    .img{
+        margin: 15px 15px 0 0;
+    }
+}

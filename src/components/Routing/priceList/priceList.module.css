@@ -27,7 +27,19 @@
     margin-top: 5vh;
 }
 @media (max-width: 768px) {
+    .title{
+        text-align: center;
+        padding: 5vh 0 5vh 0;
+        font-size: 1.7em;
+        width: 80vw;
+    }
+    .download{
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
     .position{
+        width: 90vw;
         grid-template-columns: 1fr;
     }
 }

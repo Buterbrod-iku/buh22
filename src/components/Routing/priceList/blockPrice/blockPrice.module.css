@@ -51,6 +51,9 @@
         left: 50%;
         margin-left: -28vw;
     }
+    .main{
+        width: 90vw;
+    }
     .button{
         width: 50vw;
     }

@@ -24,7 +24,7 @@ const Application = () => {
     return (
         <div className={style.main}>
             <h2 className={style.title}>АНКЕТА ПРЕДВАРИТЕЛЬНОГО РАСЧЕТА СТОИМОСТИ ОБСЛУЖИВАНИЯ КЛИЕНТА</h2>
-            <form onSubmit={sendEmail} style={{paddingBottom: "10vh"}}>
+            <form onSubmit={sendEmail} style={{paddingBottom: "10vh"}} className={style.gog}>
                 <div className={style.block}>
                     <label className={style.label}>Ваше имя</label>
                     <input type="name" className={style.input}/>

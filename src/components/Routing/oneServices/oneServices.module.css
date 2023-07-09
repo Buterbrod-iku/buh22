@@ -23,7 +23,7 @@
     .title{
         text-align: center;
         padding: 0 0 5vh 0;
-        font-size: 2.5em;
+        font-size: 2em;
     }
     .position{
         grid-template-columns: 1fr;

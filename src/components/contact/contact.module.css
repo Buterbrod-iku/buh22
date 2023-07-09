@@ -60,4 +60,14 @@
     .block{
         width: 80vw;
     }
+    .title{
+        font-size: 2em;
+        padding: 7vh 0 5vh 0;
+    }
+    .bolt{
+        font-size: 1.2em;
+    }
+    .p{
+        font-size: 1.2em;
+    }
 }

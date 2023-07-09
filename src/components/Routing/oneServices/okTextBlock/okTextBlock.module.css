@@ -8,3 +8,12 @@
 .title{
     font-size: 1.5em;
 }
+@media (max-width: 800px) {
+    .main{
+        width: 90vw;
+        display: flex;
+    }
+    .title{
+        font-size: 1.4em;
+    }
+}

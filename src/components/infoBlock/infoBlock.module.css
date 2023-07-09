@@ -23,11 +23,15 @@
     }
     .title{
         width: 80vw;
+        font-size: 1.9em;
     }
     .text{
-        width: 80vw;
+        width: 90vw;
+        font-size: 1.5em;
     }
     .bolt{
         width: 80vw;
+        font-size: 1.4em;
+        margin-top: 20px;
     }
 }

@@ -19,7 +19,7 @@ const Form = () => {
     return (
         <div className={style.main}>
             <h2 className={style.title}>Остались вопросы?</h2>
-            <p className={style.text}>Заполните форму, и мы ответим вам <br/> в течении часа</p>
+            <p className={style.text}>Заполните форму, и мы ответим вам в течении часа</p>
             <form className={style.position} onSubmit={sendEmail}>
                 <input placeholder="Ваше Ф.И.О" type="text" name="to_name" className={style.input}/>
                 <input placeholder="Ваш телефон" type="tel" id="phone" name="phone"

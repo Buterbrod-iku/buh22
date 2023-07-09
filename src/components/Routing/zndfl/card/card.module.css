@@ -41,16 +41,20 @@
         width: 50vw;
     }
     .blockImage{
-        width: 70vw;
-
+        width: 80vw;
     }
 }
 @media (max-width: 1350px) {
     .button{
-        width: 40vw;
+        width: 60vw;
+        margin-left: -30vw;
     }
     .blockImage{
-        width: 50vw;
-
+        width: 90vw;
+    }
+    .main{
+        width: 90vw;
+        margin-left: 5vw;
+        height: auto;
     }
 }

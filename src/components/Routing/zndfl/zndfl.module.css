@@ -40,13 +40,15 @@
 }
 @media (max-width: 1350px) {
     .title{
-        width: 70vw;
+        width: 90vw;
+        font-size: 2em;
     }
     .text{
-        width: 70vw;
+        width: 90vw;
+        font-size: 1.3em;
     }
     .position{
         grid-template-columns: 1fr;
-        width: 60vw;
+        width: 100vw;
     }
 }

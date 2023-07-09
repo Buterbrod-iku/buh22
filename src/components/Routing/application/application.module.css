@@ -64,16 +64,20 @@
     .chec{
         width: 80vw;
     }
+    .gog{
+        width: 90vw;
+    }
 }
 @media (max-width: 1350px) {
     .title{
-        padding: 15vh 0 10vh 0;
-        width: 70vw;
+        padding: 5vh 0 10vh 0;
+        width: 80vw;
+        font-size: 1.5em;
     }
     .input{
-        width: 80vw;
+        width: 90vw;
     }
     .chec{
-        width: 80vw;
+        width: 90vw;
     }
 }

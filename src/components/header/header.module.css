@@ -22,6 +22,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 .menuBlock{
     color: #1f1b1b;
@@ -31,6 +32,18 @@ header{
     border-right: 1px solid black;
     cursor: pointer;
     transition: 0.15s;
+}
+.mainMenu{
+    color: #1f1b1b;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 30px;
+    border-right: 1px solid black;
+    cursor: pointer;
+    transition: 0.15s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .menuBlock:last-child{
     border: none;
@@ -42,7 +55,10 @@ header{
     text-decoration: none;
     color: #1f1b1b;
 }
-@media (max-width: 768px) {
+.close{
+    display: none;
+}
+@media (max-width: 800px) {
     header{
         height: auto;
         position: relative;
@@ -51,18 +67,46 @@ header{
     .menu{
         flex-direction: column;
         padding-bottom: 2vh;
+        display: none;
+    }
+    .mainMenu{
+        display: none;
+    }
+    .openMenu{
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(241,235,229,1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        overflow-y: hidden;
     }
     .menuBlock{
         font-size: 23px;
         padding: 15px 0;
         border-right: none;
     }
+    .close{
+        display: block;
+        margin-right: 0;
+        z-index: 99;
+    }
     .logoBlock{
         height: 100%;
+        padding: 20px 0;
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
-        margin: 20px 0;
+    }
+    .textLogo{
+        font-size: 1.3em;
     }
 }
 @media (max-width: 1350px) {

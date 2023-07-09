@@ -71,8 +71,8 @@
 @media (max-width: 768px) {
     .title{
         padding: 5vh 0;
-        font-size: 2.5em;
-        width: 70vw;
+        font-size: 2em;
+        width: 90vw;
     }
     .position{
         width: 80vw;
@@ -87,8 +87,8 @@
 @media (max-width: 1350px) {
     .title{
         padding: 5vh 0;
-        font-size: 2.5em;
-        width: 70vw;
+        font-size: 2em;
+        width: 90vw;
     }
     .position{
         width: 80vw;

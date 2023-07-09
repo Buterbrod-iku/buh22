@@ -19,7 +19,7 @@ const Service = () => {
 
     return (
         <div className={style.main}>
-            <h2 className={style.title}>БУХГАЛТЕРСКИЙ УЧЕТ ДЛЯ <br/> ИП И ООО</h2>
+            <h2 className={style.title}>БУХГАЛТЕРСКИЙ УЧЕТ ДЛЯ ИП И ООО</h2>
             <div className={style.position}>
                 {
                     data.map((item, i) => (

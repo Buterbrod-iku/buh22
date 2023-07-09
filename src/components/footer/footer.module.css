@@ -45,6 +45,9 @@ footer{
         width: 30vw;
         margin: 5vh;
     }
+    .text{
+        width: 90vw;
+    }
 }
 @media (max-width: 1350px) {
     .position{
